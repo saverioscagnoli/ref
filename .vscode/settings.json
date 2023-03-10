@@ -1,6 +1,10 @@
 {
   "Lua.diagnostics.globals": ["love"],
-  "Lua.diagnostics.disable": ["trailing-space", "undefined-global"],
+  "Lua.diagnostics.disable": [
+    "trailing-space",
+    "undefined-global",
+    "lowercase-global"
+  ],
   "Lua.runtime.version": "LuaJIT",
   "Lua.runtime.special": {
     "love.filesystem.load": "loadfile"
