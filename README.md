@@ -1,7 +1,7 @@
 # Reference Canvas
 
 This is a very small project that serves the purpose of displaying images used for reference.
-Just drag and drop an image from your computer onto the canvas and it will magically appear! 🧙‍♂️
+Just drag and drop an image from your computer onto the canvas and it will magically appear! 🧙
 
 ### Commands
 
