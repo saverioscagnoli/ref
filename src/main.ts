@@ -64,7 +64,6 @@ canvas.addEventListener("drop", e => {
   const reader = new FileReader();
   reader.onload = () => {
     const img = new Image();
-    console.log(img.width, img.height);
     img.onload = () => {
       let [x, y] = [e.clientX - img.width * 0.5, e.clientY - img.height * 0.5];
       frames.push(new Frame({ x, y, img }));
@@ -76,7 +75,6 @@ canvas.addEventListener("drop", e => {
 
 document.addEventListener("keydown", e => {
   if (["Delete", "Backspace"].includes(e.key)) {
-    console.log("delete");
     for (let i = 0; i < frames.length; i++) {
       const frame = frames[i];
       if (frame.collides(mX, mY)) {
